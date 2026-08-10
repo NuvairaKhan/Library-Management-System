@@ -18,15 +18,15 @@ Traditional library record-keeping is slow, error-prone, and hard to search. Thi
 
 ```
 .
-├── Person.java                   # Abstract base class for people in the system
-├── Member.java                   # Library member (extends Person)
-├── Book.java                     # Book record
-├── Issue.java                    # Links a book to a member with a status
-├── Manageable.java               # Generic interface implemented by all manager classes
-├── BookManager.java              # CRUD + file persistence for books
-├── MemberManager.java            # CRUD + file persistence for members
-├── IssueManager.java             # CRUD + file persistence for issue records
-├── LibraryManagementSystem.java  # Entry point — menu-driven console interface
+├── Person.java                   
+├── Member.java                   
+├── Book.java                     
+├── Issue.java                    
+├── Manageable.java               
+├── BookManager.java              
+├── MemberManager.java            
+├── IssueManager.java             
+├── LibraryManagementSystem.java
 └── README.md
 ```
 
@@ -81,8 +81,8 @@ Enter the number for the action you want, and follow the prompts.
 
 ## Validation
 
-- **Issue Book** checks that both the entered book ID and member ID exist in the system before creating an issue record — invalid IDs are rejected with a clear message instead of silently creating a broken record.
+- **Issue Book** checks that both the entered book ID and member ID exist in the system before creating an issue record invalid IDs are rejected with a clear message instead of silently creating a broken record.
 
 ## Conclusion
 
-This project applies core Object-Oriented Programming concepts — abstraction, inheritance, interfaces, composition, and association — to a practical problem: automating library record-keeping. Splitting responsibilities across dedicated manager classes keeps the system organized, and file-based persistence ensures records survive between runs.
+This project applies core Object-Oriented Programming concepts abstraction, inheritance, interfaces, composition, and association to a practical problem: automating library record-keeping. Splitting responsibilities across dedicated manager classes keeps the system organized, and file-based persistence ensures records survive between runs.
