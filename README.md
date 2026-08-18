@@ -1,10 +1,10 @@
 # Library Management System
 
-A console-based Java application built for the **Object-Oriented Programming (OOP) Lab**, Department of Software Engineering, University of Central Punjab. It manages library operations — books, members, and issue records — using core OOP principles instead of manual, paper-based tracking.
+A console based Java application built for the **Object Oriented Programming (OOP) Lab**, Department of Software Engineering, University of Central Punjab. It manages library operations books, members, and issue records using core OOP principles instead of manual, paper based tracking.
 
 ## Description
 
-Traditional library record-keeping is slow, error-prone, and hard to search. This system replaces that with a menu-driven Java application that stores book and member records, tracks which books are issued to which members, and persists everything to disk so no data is lost between runs.
+Traditional library record keeping is slow, error prone, and hard to search. This system replaces that with a menu driven Java application that stores book and member records, tracks which books are issued to which members, and persists everything to disk so no data is lost between runs.
 
 ## OOP Concepts Used
 
@@ -42,12 +42,12 @@ Traditional library record-keeping is slow, error-prone, and hard to search. Thi
 
 ## File Handling
 
-Book, member, and issue records are saved to plain-text files (`books.txt`, `members.txt`, `issues.txt`) when the program exits, and automatically reloaded the next time it starts — so data persists across sessions.
+Book, member, and issue records are saved to plain-text files (`books.txt`, `members.txt`, `issues.txt`) when the program exits, and automatically reloaded the next time it starts so data persists across sessions.
 
 ## Requirements
 
-- JDK 14 or later (the menu uses Java's arrow-style `switch` expressions)
-- No external libraries — uses only the standard library (`java.util`, `java.io`)
+- JDK 14 or later (the menu uses Java's arrow style `switch` expressions)
+- No external libraries uses only the standard library (`java.util`, `java.io`)
 
 ## Installation & Usage
 
