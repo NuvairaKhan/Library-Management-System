@@ -32,9 +32,9 @@ Traditional library record keeping is slow, error prone, and hard to search. Thi
 
 ## Features
 
-- **Add Book** — stores a new book with an auto-generated ID, title, and author
+- **Add Book** — stores a new book with an auto generated ID, title, and author
 - **View Books** — lists every book currently on record
-- **Add Member** — registers a new member with an auto-generated ID and name
+- **Add Member** — registers a new member with an auto generated ID and name
 - **View Members** — lists every registered member
 - **Issue Book** — issues a book to a member, **validating that both the book ID and member ID actually exist** before creating the record (prevents issuing nonexistent books to nonexistent members)
 - **View Issues** — lists every issue record with its status
@@ -85,4 +85,4 @@ Enter the number for the action you want, and follow the prompts.
 
 ## Conclusion
 
-This project applies core Object-Oriented Programming concepts abstraction, inheritance, interfaces, composition, and association to a practical problem: automating library record-keeping. Splitting responsibilities across dedicated manager classes keeps the system organized, and file-based persistence ensures records survive between runs.
+This project applies core Object-Oriented Programming concepts abstraction, inheritance, interfaces, composition, and association to a practical problem: automating library record-keeping. Splitting responsibilities across dedicated manager classes keeps the system organized, and file based persistence ensures records survive between runs.
